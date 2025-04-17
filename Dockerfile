@@ -13,5 +13,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # 5. Flask uchun port
 EXPOSE 8080
 
-# 6. Botni ishga tushirish
+CMD ["python", "app.py"]
 CMD ["python", "bot.py"]
