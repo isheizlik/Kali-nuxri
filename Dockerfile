@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 8080
 
 # 6. Botni ishga tushirish
-CMD ["python", "app.py"]
+CMD ["python", "bot.py"]
