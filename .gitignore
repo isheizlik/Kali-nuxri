@@ -1,0 +1,24 @@
+# Python cache fayllari
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Tokenlar, maxfiy fayllar
+config.ini
+*.env
+
+# OS fayllar
+.DS_Store
+*.log
+
+# IDE'lar (VSCode, PyCharm va boshqalar)
+.vscode/
+.idea/
+
+# Fayllar
+*.db
+*.sqlite
+*.bak
